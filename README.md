@@ -1,130 +1,63 @@
-<<<<<<< HEAD
-# 🧩 Methefor | Interactive Rubik's Cube Portfolio
+# Methefor | Interactive 3D Portfolio
 
-A high-performance, interactive developer portfolio inspired by the logic and elegance of a Rubik's Cube. Designed for Full Stack Developers and AI Engineers who value precision and "working with heart, creating with mind."
+> "Working with heart, creating with mind."
 
-![Full Portfolio Check](file:///C:/Users/methe/.gemini/antigravity/brain/c683d28c-1701-49c7-b852-375ca7d0f3de/full_portfolio_check_1773364085841.png)
+A high-performance, interactive 3D portfolio featuring a fully functional Rubik's Cube simulation, glassmorphism UI, dynamic particles, and smooth micro-animations. Built with pure HTML, CSS, and JavaScript — no frameworks, no dependencies.
 
-## ✨ Core Features
+![Portfolio Preview](preview.png)
 
-*   **3D Interactive Rubik's Cube**: A fully functional, draggable cube built entirely with CSS 3D transforms.
-*   **Intelligent Animations**: Features recursive scrambling/solving algorithms and inertia-based dragging.
-*   **Dynamic UI Sections**:
-    *   **Hero Section**: High-impact introduction with typewriter effects and interactive 3D elements.
-    *   **About Section**: Professional bio and real-time counter statistics.
-    *   **Skills Section**: Personalized tech-stack visualization (Frontend, Backend, Database, AI & Data).
-    *   **Project Showcase**: 3D 카드 flip effects for project details.
-*   **Modern Aesthetics**: Glassmorphism, particles, smooth gradients, and custom cursors for a premium feel.
-*   **Responsive & Fast**: Optimized for all devices with near-instant load times.
+## Live Demo
 
-## 🛠 Tech Stack
+[methefor-portfolio-cube.vercel.app](https://methefor-portfolio-cube.vercel.app/)
 
-*   **Frontend**: HTML5, CSS3 (Vanilla), JavaScript (ES6+)
-*   **3D Graphics**: CSS 3D Engine (Pure Transitions)
-*   **Animations**: Custom Particle Canvas API
-*   **Engagement**: Magnetic Button UI & Typewriter Logic
+## Features
 
-## 📂 Project Showcase
+- **Interactive 3D Rubik's Cube** — Custom 27-cubie simulation with Scramble & Solve (reverse-path algorithm). Drag to rotate with inertia.
+- **Glassmorphism UI** — Backdrop blurs, gradients, and subtle borders throughout.
+- **Dynamic Particles** — Ambient Rubik's Cube color particles in the background.
+- **Custom Cursor** — Smooth lagging cursor with magnetic button effects.
+- **Typewriter Effect** — Rotating role titles in the hero section.
+- **Scroll Animations** — Intersection Observer powered fade-in reveals and counter animations.
+- **Fully Responsive** — Optimized for mobile, tablet, and desktop.
 
-| Project | Description | Live/Source |
-| :--- | :--- | :--- |
-| **PHONYX** | Real-time messaging platform (Discord Alt) | [GitHub](https://github.com/methefor) |
-| **Sweet Track** | Multi-branch SaaS for production & delivery | [GitHub](https://github.com/methefor) |
-| **Cashier Database** | Restaurant inventory & sales tracking | [GitHub](https://github.com/methefor) |
-| **Novella** | Modern CMS-driven blog platform | [GitHub](https://github.com/methefor) |
-| **Financial Freedom** | Investment analytics dashboard | [GitHub](https://github.com/methefor) |
+## Tech Stack
 
-## 🎮 Interactive Cube Controls
+- **Frontend**: HTML5, CSS3 (Vanilla), JavaScript (ES6+)
+- **Styling**: CSS Variables, Glassmorphism, CSS 3D Transforms, Keyframe Animations
+- **Animations**: CSS Keyframes + Intersection Observer API
+- **Deployment**: Vercel
 
-| Instruction | Action |
-| :--- | :--- |
-| **Drag & Spin** | Rotate the cube freely on all axes |
-| **Scramble** | Trigger a random 14-move scramble algorithm |
-| **Solve** | Watch the algorithm solve the cube in reverse |
+## Projects
 
----
+| # | Project | Description |
+|---|---------|-------------|
+| 1 | **PHONYX** | Real-time messaging platform with PostgreSQL and WebSocket integration |
+| 2 | **Sweet Track** | SaaS logistics system for multi-branch dessert production & delivery tracking |
+| 3 | **Cashier Database** | Restaurant management system with inventory tracking and sales analytics |
+| 4 | **New Tab Folders** | Browser extension for organizing new tab links into neat folders — [GitHub](https://github.com/Methefor/New-Tab-Folders) |
+| 5 | **Novella** | Modern blog platform with rich text editor and content management |
+| 6 | **Financial Freedom** | Investment analytics dashboard with real-time market data integration |
 
-## 🚀 Deployment & Installation
+## Cube Controls
 
-### Local Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Methefor/Methefor-Portfolio-cube.git
-   ```
-2. Open `index.html` in any modern browser.
+- **Drag** — Click and drag (or touch) to rotate the cube in 3D space
+- **Scramble** — Randomizes the cube and records the move history
+- **Solve** — Replays the move history in reverse to restore solved state
 
-### Vercel Deployment
-This project is optimized for **Vercel**. Simply connect your GitHub repository and it will auto-deploy the static assets.
-
----
-
-### 📬 Connect with Me
-
-- **GitHub**: [Methefor](https://github.com/methefor)
-- **LinkedIn**: [Metehan Arslan](https://www.linkedin.com/in/farisedp/)
-- **Email**: [metean.54@windowslive.com](mailto:metean.54@windowslive.com)
-
----
-*Crafted with passion by **Methefor** — Working with heart, creating with mind.*
-=======
-# 🧩 Rubik's Cube Developer Portfolio
-
-A modern interactive developer portfolio inspired by the logic and elegance of a Rubik's Cube.
-
-The website features a fully interactive **3D Rubik’s Cube**, smooth animations, dynamic UI elements, and a clean responsive layout to showcase skills and projects.
-
----
-
-## ✨ Features
-
-• Interactive **3D Rubik's Cube** built from 27 cubies  
-• Drag to rotate the cube  
-• Scramble and Solve functionality  
-• Smooth animations and modern UI  
-• Animated skill cards  
-• Interactive project showcase  
-• Custom cursor and progress indicator  
-• Responsive single-page layout  
-• Clean and minimal design
-
----
-
-## 🛠 Tech Stack
-
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- **Three.js style 3D cube rendering**
-- Canvas animations
-
----
-
-## 📂 Sections
-
-The portfolio includes the following sections:
-
-- **Hero** – Introduction and interactive cube  
-- **About** – Developer background and statistics  
-- **Skills** – Technology stack visualization  
-- **Projects** – Featured work showcase  
-- **Contact** – Contact form
-
----
-
-## 🎮 Cube Controls
-
-| Action | Result |
-|------|------|
-| Drag | Rotate the cube |
-| Scramble button | Random cube state |
-| Solve button | Automatically solve cube |
-
----
-
-## 🚀 Getting Started
-
-Clone the repository:
+## Local Development
 
 ```bash
-git clone https://github.com/Brahmpreett/rubikscube.git
->>>>>>> d65a23ccc197322b859f7815d55d001c249762ed
+git clone https://github.com/Methefor/Methefor-Portfolio-cube.git
+```
+
+Open `index.html` directly in your browser or use a local server (e.g. VS Code Live Server).
+
+## Contact
+
+- **GitHub**: [@Methefor](https://github.com/Methefor)
+- **LinkedIn**: [Metehan Arslan](https://www.linkedin.com/in/methefor/)
+- **Email**: [methefor@gmail.com](mailto:methefor@gmail.com)
+
+---
+
+Developed by **Methefor** — Working with heart, creating with mind.
