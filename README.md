@@ -4,7 +4,7 @@
 
 A high-performance, interactive 3D portfolio featuring a fully functional Rubik's Cube simulation, glassmorphism UI, dynamic particles, and smooth micro-animations. Built with pure HTML, CSS, and JavaScript — no frameworks, no dependencies.
 
-![Portfolio Preview](preview.png)
+![Portfolio Preview](photo.png)
 
 ## Live Demo
 
