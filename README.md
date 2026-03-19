@@ -6,7 +6,7 @@ A high-performance, interactive 3D portfolio featuring a fully functional Rubik'
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-methefor--portfolio--cube.vercel.app-orange?style=for-the-badge&logo=vercel)](https://methefor-portfolio-cube.vercel.app/)
 
-![Portfolio Preview](https://methefor-portfolio-cube.vercel.app/preview.png)
+![Portfolio Preview](cube-preview.svg)
 
 ## Features
 

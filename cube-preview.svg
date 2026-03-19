@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 295">
+  <defs>
+    <filter id="gf" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#C41E3A" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <style>
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    @keyframes pulse{0%,100%{opacity:.2;transform:scaleX(1)}50%{opacity:.42;transform:scaleX(1.12)}}
+    @keyframes spinRow{
+      0%,18%{transform:translateX(0)}
+      22%,42%{transform:translateX(35px) translateY(-20px)}
+      46%,66%{transform:translateX(0)}
+      70%,90%{transform:translateX(-35px) translateY(20px)}
+      94%,100%{transform:translateX(0)}
+    }
+    #cube{animation:float 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    #shd{animation:pulse 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  </style>
+
+  <!-- Background -->
+  <rect width="300" height="295" fill="#08080f" rx="14"/>
+
+  <!-- Shadow under cube -->
+  <ellipse id="shd" cx="150" cy="278" rx="88" ry="13" fill="#C41E3A"/>
+
+  <!-- Floating cube group -->
+  <g id="cube" filter="url(#gf)">
+
+    <!-- ══ TOP FACE — White ══ -->
+    <polygon points="150,28 185,48 150,68 115,48" fill="#F4F4F4" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="185,48 220,68 185,88 150,68" fill="#EBEBEB" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="220,68 255,88 220,108 185,88" fill="#DADADA" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="115,48 150,68 115,88 80,68"  fill="#EBEBEB" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="150,68 185,88 150,108 115,88" fill="#F6F6F6" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="185,88 220,108 185,128 150,108" fill="#E5E5E5" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="80,68 115,88 80,108 45,88"   fill="#DADADA" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="115,88 150,108 115,128 80,108" fill="#E5E5E5" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="150,108 185,128 150,148 115,128" fill="#D5D5D5" stroke="#0b0b0b" stroke-width="2.3"/>
+
+    <!-- ══ RIGHT FACE — Red ══ -->
+    <polygon points="255,88 220,108 220,148 255,128"  fill="#D52040" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="255,128 220,148 220,188 255,168" fill="#C41E3A" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="255,168 220,188 220,228 255,208" fill="#B01C35" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="220,108 185,128 185,168 220,148" fill="#C41E3A" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="220,148 185,168 185,208 220,188" fill="#B01C35" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="220,188 185,208 185,248 220,228" fill="#9E1A30" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="185,128 150,148 150,188 185,168" fill="#B01C35" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="185,168 150,188 150,228 185,208" fill="#9E1A30" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="185,208 150,228 150,268 185,248" fill="#8C1828" stroke="#0b0b0b" stroke-width="2.3"/>
+
+    <!-- ══ LEFT FACE — Orange ══ -->
+    <polygon points="45,88 80,108 80,148 45,128"   fill="#CC4600" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="45,128 80,148 80,188 45,168"  fill="#BB4000" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="45,168 80,188 80,228 45,208"  fill="#AA3900" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="80,108 115,128 115,168 80,148"  fill="#EE5200" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="80,148 115,168 115,208 80,188"  fill="#DD4A00" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="80,188 115,208 115,248 80,228"  fill="#CC4400" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="115,128 150,148 150,188 115,168" fill="#FF5800" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="115,168 150,188 150,228 115,208" fill="#EE5200" stroke="#0b0b0b" stroke-width="2.3"/>
+    <polygon points="115,208 150,228 150,268 115,248" fill="#DD4A00" stroke="#0b0b0b" stroke-width="2.3"/>
+
+    <!-- Gloss highlight on top-left cell -->
+    <polygon points="150,28 185,48 150,68 115,48" fill="white" opacity="0.15"/>
+    <!-- Edge rim highlight -->
+    <polyline points="150,28 255,88" stroke="rgba(255,255,255,0.18)" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+    <polyline points="150,28 45,88"  stroke="rgba(255,255,255,0.12)" stroke-width="1" fill="none" stroke-linecap="round"/>
+
+  </g>
+
+  <!-- "Drag to rotate" label -->
+  <text x="150" y="293" text-anchor="middle" font-family="monospace" font-size="9" fill="#4a4a6a" letter-spacing="1">methefor-portfolio-cube.vercel.app</text>
+</svg>
