@@ -4,11 +4,9 @@
 
 A high-performance, interactive 3D portfolio featuring a fully functional Rubik's Cube simulation, glassmorphism UI, dynamic particles, and smooth micro-animations. Built with pure HTML, CSS, and JavaScript — no frameworks, no dependencies.
 
-![Portfolio Preview](photo.png)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-methefor--portfolio--cube.vercel.app-orange?style=for-the-badge&logo=vercel)](https://methefor-portfolio-cube.vercel.app/)
 
-## Live Demo
-
-[methefor-portfolio-cube.vercel.app](https://methefor-portfolio-cube.vercel.app/)
+![Portfolio Preview](https://methefor-portfolio-cube.vercel.app/preview.png)
 
 ## Features
 
@@ -29,14 +27,14 @@ A high-performance, interactive 3D portfolio featuring a fully functional Rubik'
 
 ## Projects
 
-| # | Project | Description |
-|---|---------|-------------|
-| 1 | **PHONYX** | Real-time messaging platform with PostgreSQL and WebSocket integration |
-| 2 | **Sweet Track** | SaaS logistics system for multi-branch dessert production & delivery tracking |
-| 3 | **Cashier Database** | Restaurant management system with inventory tracking and sales analytics |
-| 4 | **New Tab Folders** | Browser extension for organizing new tab links into neat folders — [GitHub](https://github.com/Methefor/New-Tab-Folders) |
-| 5 | **Novella** | Modern blog platform with rich text editor and content management |
-| 6 | **Financial Freedom** | Investment analytics dashboard with real-time market data integration |
+| # | Project | Description | Status |
+|---|---------|-------------|--------|
+| 1 | **[New Tab Folders](https://github.com/Methefor/New-Tab-Folders)** | Chrome extension that transforms the new tab page into a bookmark manager with folder organization, drag-and-drop and multi-language support | ✅ Done |
+| 2 | **[Sweet Track](https://github.com/Methefor/Tatli-Imalat-Dagitim)** | Multi-branch sweet production & delivery tracking system replacing Google Sheets with Supabase | ✅ Done |
+| 3 | **[Cashier Database](https://github.com/Methefor/Rumeli-iskelesi-yonetim)** | Modern daily revenue & data management dashboard for Rumeli İskelesi with PWA support | ✅ Done |
+| 4 | **[Novella Jewell](https://github.com/Methefor/Novella-jewell)** | Animated boutique jewelry e-commerce platform built with Next.js 15, TypeScript, Tailwind CSS and Framer Motion | ✅ Done |
+| 5 | **[PHONYX](https://github.com/Methefor/phonyx-core)** | Privacy-first real-time communication platform — a Discord alternative | 🚧 In Progress |
+| 6 | **[Financial Freedom](https://github.com/Methefor/Methefor-Financial-Freedom)** | AI-powered trading signal system with real-time analysis for stocks, Turkish equities & crypto using RSI, MACD and 420+ news sources | 🚧 In Progress |
 
 ## Cube Controls
 
