@@ -1131,6 +1131,17 @@
             border-top: 3px solid #aaa
         }
 
+        .p7 .proj-f {
+            border-top: 3px solid #FF4EAF
+        }
+
+        /* Center lone last card in 3-col grid */
+        @media(min-width:1101px) {
+            .projects-grid > .proj:last-child:nth-child(3n+1) {
+                grid-column: 2;
+            }
+        }
+
         /* ── CONTACT ── */
         #contact {
             background: var(--bg);
@@ -1723,7 +1734,7 @@
             <div class="proj p1 up">
                 <div class="proj-inner">
                     <div class="proj-f">
-                        <div class="proj-num">01 / 06</div>
+                        <div class="proj-num">01 / 07</div>
                         <div class="proj-ico">&#128193;</div>
                         <div class="proj-title">New Tab Folders</div>
                         <div class="proj-tags">
@@ -1741,7 +1752,7 @@
             <div class="proj p2 up">
                 <div class="proj-inner">
                     <div class="proj-f">
-                        <div class="proj-num">02 / 06</div>
+                        <div class="proj-num">02 / 07</div>
                         <div class="proj-ico">&#127856;</div>
                         <div class="proj-title">Sweet Track</div>
                         <div class="proj-tags">
@@ -1759,7 +1770,7 @@
             <div class="proj p3 up">
                 <div class="proj-inner">
                     <div class="proj-f">
-                        <div class="proj-num">03 / 06</div>
+                        <div class="proj-num">03 / 07</div>
                         <div class="proj-ico">&#127869;</div>
                         <div class="proj-title">Cashier Database</div>
                         <div class="proj-tags">
@@ -1777,7 +1788,7 @@
             <div class="proj p4 up">
                 <div class="proj-inner">
                     <div class="proj-f">
-                        <div class="proj-num">04 / 06</div>
+                        <div class="proj-num">04 / 07</div>
                         <div class="proj-ico">&#128142;</div>
                         <div class="proj-title">Novella Jewell</div>
                         <div class="proj-tags">
@@ -1795,7 +1806,7 @@
             <div class="proj p5 up">
                 <div class="proj-inner">
                     <div class="proj-f">
-                        <div class="proj-num">05 / 06</div>
+                        <div class="proj-num">05 / 07</div>
                         <div class="proj-ico">&#128172;</div>
                         <div class="proj-title">PHONYX</div>
                         <div class="proj-tags">
@@ -1813,7 +1824,7 @@
             <div class="proj p6 up">
                 <div class="proj-inner">
                     <div class="proj-f">
-                        <div class="proj-num">06 / 06</div>
+                        <div class="proj-num">06 / 07</div>
                         <div class="proj-ico">&#128185;</div>
                         <div class="proj-title">Financial Freedom</div>
                         <div class="proj-tags">
@@ -1824,6 +1835,25 @@
                     <div class="proj-bk">
                         <div class="proj-desc">AI-powered trading signal system with real-time analysis for stocks, Turkish equities & crypto using RSI, MACD and 420+ news sources — in development.</div>
                         <a href="https://github.com/Methefor/Methefor-Financial-Freedom" class="proj-link" target="_blank">View GitHub &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 07 Flamingo Motel -->
+            <div class="proj p7 up">
+                <div class="proj-inner">
+                    <div class="proj-f">
+                        <div class="proj-num">07 / 07</div>
+                        <div class="proj-ico">&#127958;</div>
+                        <div class="proj-title">Flamingo Motel</div>
+                        <div class="proj-tags">
+                            <span class="ptag" style="color:#FF4EAF;border-color:#FF4EAF">Hotel</span>
+                            <span class="ptag" style="color:var(--yellow);border-color:var(--yellow)">Web Design</span>
+                        </div>
+                    </div>
+                    <div class="proj-bk">
+                        <div class="proj-desc">Modern motel website with room listings, reservation UI and a stylish flamingo-themed design built with clean HTML, CSS & JavaScript.</div>
+                        <a href="https://github.com/Methefor/Flamingo-Motel" class="proj-link" target="_blank">View GitHub &rarr;</a>
+                        <a href="https://www.flamingo-motel.vercel.app" class="proj-link" target="_blank" style="margin-top:10px">Live Preview &rarr;</a>
                     </div>
                 </div>
             </div>
